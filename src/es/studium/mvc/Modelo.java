@@ -2,13 +2,29 @@ package es.studium.mvc;
 
 public class Modelo 
 {
-	String operacion;
-	int operador1 = 0;
-	int operador2 = 0;
-	boolean nuevoNumeroEnPantalla;
-	
-	public double suma()
+	public String suma(int op1, int op2)
 	{
-		return 0;
+		int resultado = op1 + op2;
+		return resultado + "";
+	}
+
+	public String resta(int op1, int op2) 
+	{
+		int resultado = op1 - op2;
+		return resultado + "";
+	}
+	
+	public String mult(int op1,int op2)
+	{
+		int resultado = op1 * op2;
+		return resultado + "";
+	}
+	
+	public String div(int op1, int op2)
+	{
+		int resultado = op1 / op2;
+		return resultado + "";
 	}
 }
+
+

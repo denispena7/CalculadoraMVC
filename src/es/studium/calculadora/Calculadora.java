@@ -46,7 +46,7 @@ public class Calculadora  implements WindowListener, ActionListener
 		ventana.setTitle("Calculadora");
 
 		pantalla.setText("");
-		pantalla.setBackground(Color.CYAN);
+		pantalla.setBackground(Color.gray);
 
 		ventana.add(pantalla, BorderLayout.NORTH);
 
